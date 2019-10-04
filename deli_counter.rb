@@ -4,7 +4,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.map.with_index do |name, index|
-      puts "#{index + 1}. #{name}"
+      "#{index + 1}. #{name}"
     end
   end
 end
