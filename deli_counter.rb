@@ -3,10 +3,10 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    array.map.with_index do |name, index|
+    curr_line = array.map.with_index do |name, index|
       "#{index + 1}. #{name}"
     end
-    puts array 
+    puts array
   end
 end
 
